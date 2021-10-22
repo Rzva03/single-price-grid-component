@@ -122,7 +122,12 @@ body {
   .container {
     width: 50vw;
     height: auto;
-    outline: 2px solid black;
+    box-shadow: -1px 5px 20px 5px var(--grayishBlue);
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    max-width: 600px;
   }
   /* Header */
   .container-header {
@@ -144,6 +149,7 @@ body {
   .container-body__main {
     width: 100%;
     height: auto;
+    border-end-start-radius: 10px;
   }
   .main__signUp {
     width: 67%;
@@ -158,5 +164,8 @@ body {
   .container-footer__tittle,
   .container-footer__list {
     margin-left: 3vw;
+  }
+  .container-footer {
+    border-end-end-radius: 10px;
   }
 }
